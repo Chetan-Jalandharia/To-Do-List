@@ -11,46 +11,6 @@ This is a simple To-Do application built with React and Redux, using React-Boots
 - **Toggle Task Completion:** Each task has a checkbox to mark it as completed or not completed.
 - **Persistent Storage:** Tasks are saved to local storage to maintain state across page reloads.
 
-## Project Structure
-
-Sure, here's a sample README.md file for your To-Do application project.
-
-markdown
-
-# React To-Do Application
-
-This is a simple To-Do application built with React and Redux, using React-Bootstrap for styling and responsiveness. The application allows users to add, view, edit, and delete tasks, as well as mark tasks as completed. The tasks are saved in local storage to ensure data persistence across page reloads.
-
-## Features
-
-- **Add Task:** Users can add a new task using the input field and the "Add Task" button.
-- **View Tasks:** All added tasks are displayed in a list format.
-- **Edit Task:** Each task has an edit button that opens a modal for editing the task.
-- **Delete Task:** Each task has a delete button to remove the task from the list.
-- **Toggle Task Completion:** Each task has a checkbox to mark it as completed or not completed.
-- **Persistent Storage:** Tasks are saved to local storage to maintain state across page reloads.
-
-## Project Structure
-
-.
-├── public
-│ ├── index.html
-│ └── ...
-├── src
-│ ├── components
-│ │ ├── TaskInput.js
-│ │ ├── TaskItem.js
-│ │ └── TaskList.js
-│ ├── redux
-│ │ ├── store.js
-│ │ └── tasksSlice.js
-│ ├── App.js
-│ ├── App.css
-│ ├── index.js
-│ └── ...
-├── package.json
-├── README.md
-└── ...
 
 
 ## Technologies Used
@@ -76,8 +36,8 @@ Make sure you have the following installed on your system:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/react-todo-app.git
-    cd react-todo-app
+    git clone https://github.com/Chetan-Jalandharia/To-Do-List.git
+    cd To-Do-list
     ```
 
 2. Install the dependencies:
@@ -89,7 +49,7 @@ Make sure you have the following installed on your system:
 
 To start the development server, run:
 ```bash
-npm start
+npm run dev
 ```
 The application will be available at http://localhost:5173.
 
